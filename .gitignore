@@ -1,3 +1,5 @@
 .idea/
 python3env/
 
+.ipynb_checkpoints/
+
