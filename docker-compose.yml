@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  web:
+    tty: true
+    image: reading_group
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+    volumes:
+      - /data2/nathan/:/data2/nathan/
+      - /home/nathan/reading_group/:/root/rg/
